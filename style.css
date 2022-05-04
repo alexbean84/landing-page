@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    background-color: #1f2937;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.header1 {
+    padding: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    margin: 20px 20px 25px 100px;
+}
+    
+.logo {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
