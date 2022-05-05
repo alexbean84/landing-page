@@ -5,7 +5,7 @@ body {
 .header1 {
     display: flex;
     background-color: #1f2937;
-    height: 300px;
+    height: 220px;
     width: 100%;
     margin: 0 auto 0 auto;
     justify-content: space-between;
@@ -43,12 +43,60 @@ a {
 }
 
 img {
-    width: 400px;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .header2 {
     display: flex;
     background-color: #1f2937;
     height: 300px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
 }
+
+.notice {
+    font-weight:bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+ .text1 {
+     color: #e5e7eb;
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     font-weight: lighter;
+     margin-bottom: 16px;
+     display: flex;
+ }
+
+ .sign-up1 {
+     background: #3882f6;
+     border: 1px solid #3882f6;
+     color: white;
+     border-radius: 8px;
+     padding: 4px 20px;
+ }
+
+ .modal1 {
+     width: 500px;
+     display: flex;
+     gap: 16px;
+     padding: 16px;
+     margin-bottom: 120px;
+ }
+
+ .cat {
+     height: 350px;
+     width: 350px;
+ }
+
+ .placeholder {
+     display: flex;
+ }
+
+ 
