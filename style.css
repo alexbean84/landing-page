@@ -9,7 +9,6 @@ body {
     width: 100%;
     margin: 0 auto 0 auto;
     justify-content: space-between;
-
 }
 
 .left, .right {
@@ -83,7 +82,7 @@ img {
  }
 
  .modal1 {
-     width: 500px;
+     width: 450px;
      display: flex;
      gap: 16px;
      padding: 16px;
@@ -99,4 +98,47 @@ img {
      display: flex;
  }
 
- 
+ .container3 {
+     display: flex;
+     background-color: aquamarine;
+     height: 600px;
+     width: 100%;
+     flex-direction: column;
+ }
+
+ .dog {
+     height: 300px;
+     width: 320px;
+     margin-bottom: -50px;
+ }
+
+ .title {
+     font-family: 'Roboto', sans-serif;
+     font-size: 36px;
+     color: #1f2937;
+     font-weight: 800;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 95px;
+     margin-top: 50px;
+     flex-wrap: wrap;
+     display: flex;
+ }
+
+ .text2 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     color: #1f2937;
+     font-weight: lighter;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .line {
+     display: flex;
+     gap: 52px;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+ }
