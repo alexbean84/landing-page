@@ -104,7 +104,7 @@ img {
      display: flex;
      background-color: #f9faf8;
      height: 600px;
-     width: 100%;
+     max-width: 100%;
      flex-direction: column;
      margin: 0 auto 0 auto;
      overflow: scroll;
@@ -151,12 +151,11 @@ img {
      display: flex;
      background-color: #e5e7eb;
      height: 500px;
-     width: 100%;
+     max-width: 100%;
      flex-direction: column;
      margin: 0 auto 0 auto;
      justify-content: center;
      align-items: center;
-     flex-wrap: wrap;
  }
 
  .text3 {
@@ -175,6 +174,7 @@ img {
      margin-left: 700px;
      margin-top: 100px;
      position: absolute;
+     max-width: 300px;
      flex-wrap: wrap;
  }
 
@@ -189,12 +189,11 @@ img {
      display: flex;
      background-color: #f9faf8;
      height: 300px;
-     width: 100%;
+     max-width: 100%;
      align-items: center;
      justify-content: center;
      flex-direction: column;
      margin: 0 auto 0 auto;
-     flex-wrap: wrap-reverse;
  }
 
  .header3 {
@@ -230,19 +229,20 @@ img {
  .modal2 {
      background: #3882f6;
      border-radius: 10px;
-     width: 1000px;
+     max-width: 100%;
      height: 150px;
      display: flex;
      align-items: center;
      justify-content: space-between;
      flex-direction: row;
-     margin: 0 auto 0 auto;
+     flex-wrap: wrap;
  }
 
  .mega {
      display: flex;
      flex-direction: column;
-     justify-content: space-between;
+     justify-content: flex-start;
      align-items: center;
+     margin-right: 450px;
      margin-left: 50px;
  }
