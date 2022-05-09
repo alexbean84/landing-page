@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0 auto 0 auto;
 }
 
 .header1 {
@@ -102,10 +102,12 @@ img {
 
  .container3 {
      display: flex;
-     background-color: white;
+     background-color: #f9faf8;
      height: 600px;
      width: 100%;
      flex-direction: column;
+     margin: 0 auto 0 auto;
+     overflow: scroll;
  }
 
  .dog {
@@ -185,8 +187,62 @@ img {
 
  .container5 {
      display: flex;
-     background-color: wheat;
+     background-color: #f9faf8;
      height: 300px;
      width: 100%;
-     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0 auto 0 auto;
+     flex-wrap: wrap-reverse;
+ }
+
+ .header3 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 24px;
+     color: #f9faf8;
+     font-weight: bold;
+     display: flex;
+     margin-right: 141px;
+ }
+
+ .text4 {
+     font-family: 'Roboto', sans-serif;
+     font-size: 16px;
+     color: #f9faf8;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .sign-up2 {
+     background-color: #3882f6;
+     border: 1px solid #f9faf8;
+     border-radius: 8px;
+     color: #f9faf8;
+     padding: 4px 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-right: 50px;
+ }
+
+ .modal2 {
+     background: #3882f6;
+     border-radius: 10px;
+     width: 1000px;
+     height: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     margin: 0 auto 0 auto;
+ }
+
+ .mega {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 50px;
  }
