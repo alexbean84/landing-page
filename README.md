@@ -5,7 +5,7 @@ were built using flexbox.
 
 This is Project: Landing Page from The Odin Project https://www.theodinproject.com/lessons/foundations-landing-page
 
-My Project live: https://alexbean84.github.io/landing-page/
+My Project Live: https://alexbean84.github.io/landing-page/
 
 GitHub Code Files: https://github.com/alexbean84/landing-page
 
